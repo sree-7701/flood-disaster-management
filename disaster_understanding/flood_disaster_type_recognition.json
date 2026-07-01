@@ -1,0 +1,5816 @@
+[
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_7.png",
+    "post_image_path": "test_images\\beriut_explosion_post_7.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "explosion",
+      "tornado",
+      "hurricane",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. explosion, C. tornado, D. hurricane, E. landslide.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_7.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_7.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "explosion",
+      "tornado",
+      "hurricane",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. explosion, C. tornado, D. hurricane, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_8.png",
+    "post_image_path": "test_images\\beriut_explosion_post_8.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "fire",
+      "volcano",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. fire, C. volcano, D. explosion, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_8.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_8.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "fire",
+      "volcano",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. fire, C. volcano, D. explosion, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_9.png",
+    "post_image_path": "test_images\\beriut_explosion_post_9.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "flood",
+      "explosion",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. flood, C. explosion, D. landslide, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_10.png",
+    "post_image_path": "test_images\\beriut_explosion_post_10.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "hurricane",
+      "tsunami",
+      "tornado",
+      "explosion"
+    ],
+    "options_str": "A. earthquake, B. hurricane, C. tsunami, D. tornado, E. explosion.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_10.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_10.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "hurricane",
+      "tsunami",
+      "tornado",
+      "explosion"
+    ],
+    "options_str": "A. earthquake, B. hurricane, C. tsunami, D. tornado, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_15.png",
+    "post_image_path": "test_images\\beriut_explosion_post_15.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "E",
+    "options_list": [
+      "hurricane",
+      "fire",
+      "tornado",
+      "conflict",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. fire, C. tornado, D. conflict, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_15.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_15.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "E",
+    "options_list": [
+      "hurricane",
+      "fire",
+      "tornado",
+      "conflict",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. fire, C. tornado, D. conflict, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_16.png",
+    "post_image_path": "test_images\\beriut_explosion_post_16.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "conflict",
+      "explosion",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. earthquake, B. conflict, C. explosion, D. flood, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_16.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_16.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "conflict",
+      "explosion",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. earthquake, B. conflict, C. explosion, D. flood, E. tornado.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_18.png",
+    "post_image_path": "test_images\\beriut_explosion_post_18.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "A",
+    "options_list": [
+      "explosion",
+      "flood",
+      "volcano",
+      "fire",
+      "landslide"
+    ],
+    "options_str": "A. explosion, B. flood, C. volcano, D. fire, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_18.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_18.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "A",
+    "options_list": [
+      "explosion",
+      "flood",
+      "volcano",
+      "fire",
+      "landslide"
+    ],
+    "options_str": "A. explosion, B. flood, C. volcano, D. fire, E. landslide.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_23.png",
+    "post_image_path": "test_images\\beriut_explosion_post_23.png",
+    "post_image_type": "Optical",
+    "ground_truth": "explosion",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "explosion",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. explosion, D. volcano, E. tsunami.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\beriut_explosion_pre_23.png",
+    "post_image_path": "test_images\\beriut_explosion_sar_post_23.png",
+    "post_image_type": "SAR",
+    "ground_truth": "explosion",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "explosion",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. explosion, D. volcano, E. tsunami.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000001_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000001_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "A",
+    "options_list": [
+      "volcano",
+      "conflict",
+      "hurricane",
+      "tornado",
+      "landslide"
+    ],
+    "options_str": "A. volcano, B. conflict, C. hurricane, D. tornado, E. landslide.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000002_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000002_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "landslide",
+      "fire",
+      "volcano"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. landslide, D. fire, E. volcano.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000003_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000003_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "volcano",
+      "tsunami",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. volcano, C. tsunami, D. landslide, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000004_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000004_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "tornado",
+      "volcano",
+      "hurricane",
+      "explosion"
+    ],
+    "options_str": "A. landslide, B. tornado, C. volcano, D. hurricane, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000010_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000010_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "A",
+    "options_list": [
+      "volcano",
+      "flood",
+      "hurricane",
+      "landslide",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. flood, C. hurricane, D. landslide, E. tornado.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000011_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000011_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "landslide",
+      "tsunami",
+      "volcano",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. landslide, C. tsunami, D. volcano, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\guatemala_volcano_00000014_pre_disaster.png",
+    "post_image_path": "test_images\\guatemala_volcano_00000014_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "A",
+    "options_list": [
+      "volcano",
+      "landslide",
+      "explosion",
+      "tsunami",
+      "hurricane"
+    ],
+    "options_str": "A. volcano, B. landslide, C. explosion, D. tsunami, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000126_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000126_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "tsunami",
+      "conflict",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. explosion, B. tsunami, C. conflict, D. flood, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000135_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000135_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "tornado",
+      "hurricane",
+      "fire",
+      "conflict"
+    ],
+    "options_str": "A. flood, B. tornado, C. hurricane, D. fire, E. conflict.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000145_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000145_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "flood",
+      "volcano",
+      "landslide",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. flood, C. volcano, D. landslide, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000192_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000192_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "explosion",
+      "hurricane",
+      "volcano",
+      "landslide",
+      "flood"
+    ],
+    "options_str": "A. explosion, B. hurricane, C. volcano, D. landslide, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000259_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000259_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "earthquake",
+      "explosion",
+      "hurricane",
+      "volcano"
+    ],
+    "options_str": "A. tsunami, B. earthquake, C. explosion, D. hurricane, E. volcano.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000268_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000268_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "landslide",
+      "tornado",
+      "volcano",
+      "flood"
+    ],
+    "options_str": "A. hurricane, B. landslide, C. tornado, D. volcano, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000402_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000402_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "earthquake",
+      "conflict",
+      "hurricane",
+      "volcano"
+    ],
+    "options_str": "A. landslide, B. earthquake, C. conflict, D. hurricane, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000411_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000411_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "volcano",
+      "tsunami",
+      "flood",
+      "earthquake"
+    ],
+    "options_str": "A. hurricane, B. volcano, C. tsunami, D. flood, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000420_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000420_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "explosion",
+      "hurricane",
+      "tsunami",
+      "conflict"
+    ],
+    "options_str": "A. landslide, B. explosion, C. hurricane, D. tsunami, E. conflict.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000447_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000447_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "tsunami",
+      "explosion",
+      "earthquake",
+      "tornado"
+    ],
+    "options_str": "A. hurricane, B. tsunami, C. explosion, D. earthquake, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000456_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000456_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "fire",
+      "hurricane",
+      "conflict",
+      "landslide"
+    ],
+    "options_str": "A. volcano, B. fire, C. hurricane, D. conflict, E. landslide.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000482_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000482_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "fire",
+      "explosion",
+      "volcano",
+      "hurricane",
+      "landslide"
+    ],
+    "options_str": "A. fire, B. explosion, C. volcano, D. hurricane, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000491_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000491_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tsunami",
+      "tornado",
+      "volcano",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. tornado, C. volcano, D. landslide, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000509_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000509_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "flood",
+      "hurricane",
+      "fire",
+      "explosion"
+    ],
+    "options_str": "A. conflict, B. flood, C. hurricane, D. fire, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000518_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000518_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "explosion",
+      "landslide",
+      "flood"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. explosion, D. landslide, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_florence_00000536_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_florence_00000536_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "tornado",
+      "tsunami",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. earthquake, B. tornado, C. tsunami, D. hurricane, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000033_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000033_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tornado",
+      "earthquake",
+      "volcano",
+      "hurricane",
+      "explosion"
+    ],
+    "options_str": "A. tornado, B. earthquake, C. volcano, D. hurricane, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000062_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000062_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "fire",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. fire, D. volcano, E. tsunami.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000124_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000124_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "volcano",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. volcano, D. tsunami, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000132_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000132_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "hurricane",
+      "explosion",
+      "landslide",
+      "conflict"
+    ],
+    "options_str": "A. flood, B. hurricane, C. explosion, D. landslide, E. conflict.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000149_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000149_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "explosion",
+      "tornado",
+      "hurricane",
+      "conflict"
+    ],
+    "options_str": "A. earthquake, B. explosion, C. tornado, D. hurricane, E. conflict.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000157_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000157_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "volcano",
+      "earthquake",
+      "fire",
+      "hurricane",
+      "landslide"
+    ],
+    "options_str": "A. volcano, B. earthquake, C. fire, D. hurricane, E. landslide.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000283_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000283_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "explosion",
+      "tsunami",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. landslide, B. explosion, C. tsunami, D. hurricane, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000301_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000301_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "tsunami",
+      "fire",
+      "tornado",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. tsunami, C. fire, D. tornado, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000309_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000309_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "fire",
+      "conflict",
+      "tsunami"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. fire, D. conflict, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000319_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000319_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "fire",
+      "earthquake",
+      "flood",
+      "volcano"
+    ],
+    "options_str": "A. hurricane, B. fire, C. earthquake, D. flood, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000328_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000328_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "hurricane",
+      "explosion",
+      "flood"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. hurricane, D. explosion, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000337_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000337_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "tsunami",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. tsunami, D. fire, E. earthquake.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000387_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000387_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "earthquake",
+      "hurricane",
+      "landslide",
+      "flood"
+    ],
+    "options_str": "A. conflict, B. earthquake, C. hurricane, D. landslide, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000404_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000404_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "tsunami",
+      "landslide",
+      "flood"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. tsunami, D. landslide, E. flood.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_harvey_00000505_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_harvey_00000505_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "volcano",
+      "tsunami",
+      "conflict",
+      "hurricane",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. tsunami, C. conflict, D. hurricane, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000000_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000000_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "flood",
+      "explosion",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. flood, D. explosion, E. earthquake.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000030_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000030_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "conflict",
+      "tornado",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. conflict, C. tornado, D. earthquake, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000036_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000036_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "explosion",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. explosion, D. fire, E. earthquake.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000056_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000056_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "flood",
+      "earthquake",
+      "tsunami"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. flood, D. earthquake, E. tsunami.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000095_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000095_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "volcano",
+      "earthquake",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. volcano, C. earthquake, D. fire, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000101_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000101_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "fire",
+      "hurricane",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. earthquake, B. fire, C. hurricane, D. tsunami, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000108_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000108_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "tsunami",
+      "hurricane",
+      "volcano",
+      "earthquake"
+    ],
+    "options_str": "A. explosion, B. tsunami, C. hurricane, D. volcano, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000114_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000114_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "fire",
+      "flood",
+      "volcano",
+      "hurricane",
+      "earthquake"
+    ],
+    "options_str": "A. fire, B. flood, C. volcano, D. hurricane, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000121_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000121_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "landslide",
+      "tsunami",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. landslide, C. tsunami, D. fire, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000127_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000127_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "earthquake",
+      "conflict",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. tsunami, B. earthquake, C. conflict, D. hurricane, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000134_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000134_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "tornado",
+      "explosion",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. flood, B. tornado, C. explosion, D. fire, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000147_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000147_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "volcano",
+      "landslide",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. hurricane, B. volcano, C. landslide, D. fire, E. earthquake.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000153_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000153_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "tornado",
+      "hurricane",
+      "flood",
+      "tsunami"
+    ],
+    "options_str": "A. volcano, B. tornado, C. hurricane, D. flood, E. tsunami.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000160_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000160_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "explosion",
+      "hurricane",
+      "landslide",
+      "earthquake",
+      "tsunami"
+    ],
+    "options_str": "A. explosion, B. hurricane, C. landslide, D. earthquake, E. tsunami.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000166_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000166_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "fire",
+      "tsunami",
+      "earthquake",
+      "tornado",
+      "hurricane"
+    ],
+    "options_str": "A. fire, B. tsunami, C. earthquake, D. tornado, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000174_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000174_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "hurricane",
+      "conflict",
+      "earthquake"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. hurricane, D. conflict, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000180_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000180_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "conflict",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. conflict, D. tsunami, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000188_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000188_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "fire",
+      "conflict",
+      "tornado",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. fire, C. conflict, D. tornado, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000201_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000201_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "tsunami",
+      "earthquake",
+      "conflict",
+      "tornado"
+    ],
+    "options_str": "A. hurricane, B. tsunami, C. earthquake, D. conflict, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000214_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000214_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tornado",
+      "earthquake",
+      "hurricane",
+      "fire",
+      "conflict"
+    ],
+    "options_str": "A. tornado, B. earthquake, C. hurricane, D. fire, E. conflict.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000227_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000227_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "volcano",
+      "explosion",
+      "conflict",
+      "tornado",
+      "hurricane"
+    ],
+    "options_str": "A. volcano, B. explosion, C. conflict, D. tornado, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000233_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000233_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "hurricane",
+      "tornado",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. flood, B. hurricane, C. tornado, D. landslide, E. volcano.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000241_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000241_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "fire",
+      "earthquake",
+      "tornado",
+      "conflict",
+      "hurricane"
+    ],
+    "options_str": "A. fire, B. earthquake, C. tornado, D. conflict, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000248_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000248_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "volcano",
+      "tornado",
+      "hurricane",
+      "explosion"
+    ],
+    "options_str": "A. landslide, B. volcano, C. tornado, D. hurricane, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000261_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000261_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "conflict",
+      "landslide",
+      "tornado"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. conflict, D. landslide, E. tornado.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000268_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000268_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "volcano",
+      "tornado",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. explosion, B. volcano, C. tornado, D. earthquake, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000275_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000275_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "tornado",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. tornado, D. tsunami, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000282_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000282_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "tornado",
+      "hurricane",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. tornado, C. hurricane, D. fire, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000321_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000321_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "fire",
+      "hurricane",
+      "conflict",
+      "landslide"
+    ],
+    "options_str": "A. volcano, B. fire, C. hurricane, D. conflict, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000327_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000327_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "fire",
+      "conflict",
+      "earthquake",
+      "landslide"
+    ],
+    "options_str": "A. hurricane, B. fire, C. conflict, D. earthquake, E. landslide.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000340_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000340_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "fire",
+      "hurricane",
+      "explosion",
+      "tsunami"
+    ],
+    "options_str": "A. volcano, B. fire, C. hurricane, D. explosion, E. tsunami.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000347_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000347_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "conflict",
+      "tornado",
+      "hurricane",
+      "explosion"
+    ],
+    "options_str": "A. landslide, B. conflict, C. tornado, D. hurricane, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000382_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000382_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "flood",
+      "explosion",
+      "hurricane",
+      "conflict"
+    ],
+    "options_str": "A. landslide, B. flood, C. explosion, D. hurricane, E. conflict.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_matthew_00000390_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_matthew_00000390_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "fire",
+      "conflict",
+      "volcano",
+      "hurricane",
+      "flood"
+    ],
+    "options_str": "A. fire, B. conflict, C. volcano, D. hurricane, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000000_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000000_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "flood",
+      "volcano",
+      "conflict",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. flood, C. volcano, D. conflict, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000018_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000018_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "earthquake",
+      "explosion",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. earthquake, C. explosion, D. flood, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000039_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000039_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "tsunami",
+      "landslide",
+      "conflict"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. tsunami, D. landslide, E. conflict.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000048_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000048_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "explosion",
+      "tornado",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. hurricane, B. explosion, C. tornado, D. tsunami, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000076_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000076_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "volcano",
+      "conflict",
+      "fire"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. volcano, D. conflict, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000095_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000095_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "explosion",
+      "earthquake",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. hurricane, B. explosion, C. earthquake, D. landslide, E. volcano.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000113_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000113_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "explosion",
+      "volcano",
+      "fire",
+      "tsunami"
+    ],
+    "options_str": "A. hurricane, B. explosion, C. volcano, D. fire, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000149_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000149_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "explosion",
+      "hurricane",
+      "conflict",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. hurricane, C. conflict, D. flood, E. tornado.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000203_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000203_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "landslide",
+      "hurricane",
+      "tornado",
+      "explosion",
+      "earthquake"
+    ],
+    "options_str": "A. landslide, B. hurricane, C. tornado, D. explosion, E. earthquake.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000212_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000212_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "volcano",
+      "flood",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. volcano, D. flood, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000230_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000230_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "fire",
+      "conflict",
+      "flood",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. fire, B. conflict, C. flood, D. landslide, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000239_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000239_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "conflict",
+      "hurricane",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. conflict, C. hurricane, D. tsunami, E. landslide.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000249_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000249_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "tsunami",
+      "fire",
+      "conflict",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. tsunami, C. fire, D. conflict, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000258_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000258_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "explosion",
+      "landslide",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. explosion, C. landslide, D. flood, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000276_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000276_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "flood",
+      "conflict",
+      "volcano",
+      "landslide"
+    ],
+    "options_str": "A. hurricane, B. flood, C. conflict, D. volcano, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000303_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000303_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "explosion",
+      "flood",
+      "tornado",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. explosion, C. flood, D. tornado, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000330_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000330_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "earthquake",
+      "hurricane",
+      "tsunami",
+      "fire"
+    ],
+    "options_str": "A. volcano, B. earthquake, C. hurricane, D. tsunami, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000339_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000339_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "landslide",
+      "fire",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. landslide, D. fire, E. explosion.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000376_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000376_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "fire",
+      "tsunami",
+      "hurricane",
+      "earthquake"
+    ],
+    "options_str": "A. landslide, B. fire, C. tsunami, D. hurricane, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000387_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000387_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "explosion",
+      "fire",
+      "earthquake",
+      "landslide"
+    ],
+    "options_str": "A. hurricane, B. explosion, C. fire, D. earthquake, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000414_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000414_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "A",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "landslide",
+      "fire",
+      "conflict"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. landslide, D. fire, E. conflict.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000432_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000432_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "B",
+    "options_list": [
+      "fire",
+      "hurricane",
+      "tsunami",
+      "landslide",
+      "tornado"
+    ],
+    "options_str": "A. fire, B. hurricane, C. tsunami, D. landslide, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000450_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000450_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "D",
+    "options_list": [
+      "explosion",
+      "tornado",
+      "flood",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. explosion, B. tornado, C. flood, D. hurricane, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\hurricane_michael_00000477_pre_disaster.png",
+    "post_image_path": "test_images\\hurricane_michael_00000477_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "hurricane",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "landslide",
+      "explosion",
+      "tsunami",
+      "hurricane"
+    ],
+    "options_str": "A. flood, B. landslide, C. explosion, D. tsunami, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000002_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000002_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "D",
+    "options_list": [
+      "flood",
+      "landslide",
+      "earthquake",
+      "tornado",
+      "volcano"
+    ],
+    "options_str": "A. flood, B. landslide, C. earthquake, D. tornado, E. volcano.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000004_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000004_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "volcano",
+      "explosion",
+      "earthquake"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. volcano, D. explosion, E. earthquake.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000005_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000005_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "flood",
+      "landslide",
+      "conflict"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. flood, D. landslide, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000016_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000016_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "hurricane",
+      "landslide",
+      "tornado",
+      "conflict",
+      "earthquake"
+    ],
+    "options_str": "A. hurricane, B. landslide, C. tornado, D. conflict, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000020_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000020_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "tornado",
+      "explosion",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. flood, B. tornado, C. explosion, D. landslide, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000022_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000022_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "tornado",
+      "conflict",
+      "landslide",
+      "flood"
+    ],
+    "options_str": "A. volcano, B. tornado, C. conflict, D. landslide, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000027_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000027_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "earthquake",
+      "tornado",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. earthquake, D. tornado, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000035_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000035_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "E",
+    "options_list": [
+      "hurricane",
+      "volcano",
+      "flood",
+      "landslide",
+      "tornado"
+    ],
+    "options_str": "A. hurricane, B. volcano, C. flood, D. landslide, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000043_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000043_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "fire",
+      "tornado",
+      "landslide",
+      "tsunami"
+    ],
+    "options_str": "A. flood, B. fire, C. tornado, D. landslide, E. tsunami.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000046_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000046_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "tornado",
+      "conflict",
+      "fire",
+      "flood"
+    ],
+    "options_str": "A. volcano, B. tornado, C. conflict, D. fire, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000047_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000047_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "flood",
+      "tsunami",
+      "landslide",
+      "conflict"
+    ],
+    "options_str": "A. tornado, B. flood, C. tsunami, D. landslide, E. conflict.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000048_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000048_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "fire",
+      "flood",
+      "tornado",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. fire, B. flood, C. tornado, D. landslide, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000053_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000053_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "landslide",
+      "tornado",
+      "hurricane",
+      "tsunami"
+    ],
+    "options_str": "A. volcano, B. landslide, C. tornado, D. hurricane, E. tsunami.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000058_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000058_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "conflict",
+      "earthquake",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. conflict, C. earthquake, D. explosion, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000068_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000068_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "explosion",
+      "tornado",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. landslide, B. explosion, C. tornado, D. hurricane, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000071_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000071_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "E",
+    "options_list": [
+      "volcano",
+      "landslide",
+      "flood",
+      "tsunami",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. landslide, C. flood, D. tsunami, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000078_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000078_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "tsunami",
+      "fire",
+      "earthquake",
+      "flood"
+    ],
+    "options_str": "A. tornado, B. tsunami, C. fire, D. earthquake, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000084_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000084_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "conflict",
+      "tornado",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. conflict, C. tornado, D. landslide, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000093_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000093_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "volcano",
+      "flood",
+      "conflict"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. volcano, D. flood, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000104_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000104_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "explosion",
+      "hurricane",
+      "tornado",
+      "volcano"
+    ],
+    "options_str": "A. tsunami, B. explosion, C. hurricane, D. tornado, E. volcano.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000113_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000113_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "hurricane",
+      "tsunami",
+      "tornado",
+      "conflict",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. tsunami, C. tornado, D. conflict, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000115_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000115_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "E",
+    "options_list": [
+      "volcano",
+      "earthquake",
+      "flood",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. earthquake, C. flood, D. fire, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000116_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000116_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "hurricane",
+      "fire",
+      "explosion",
+      "tornado"
+    ],
+    "options_str": "A. conflict, B. hurricane, C. fire, D. explosion, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000129_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000129_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "volcano",
+      "tornado",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. volcano, D. tornado, E. fire.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000131_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000131_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "tsunami",
+      "fire",
+      "flood"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. tsunami, D. fire, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000139_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000139_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "B",
+    "options_list": [
+      "earthquake",
+      "tornado",
+      "fire",
+      "flood",
+      "volcano"
+    ],
+    "options_str": "A. earthquake, B. tornado, C. fire, D. flood, E. volcano.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000141_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000141_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "fire",
+      "tornado",
+      "tsunami",
+      "earthquake"
+    ],
+    "options_str": "A. flood, B. fire, C. tornado, D. tsunami, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\joplin_tornado_00000146_pre_disaster.png",
+    "post_image_path": "test_images\\joplin_tornado_00000146_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "flood",
+      "explosion",
+      "volcano",
+      "fire"
+    ],
+    "options_str": "A. tornado, B. flood, C. explosion, D. volcano, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_77.png",
+    "post_image_path": "test_images\\libya_flood_post_77.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "fire",
+      "flood",
+      "tornado",
+      "volcano",
+      "earthquake"
+    ],
+    "options_str": "A. fire, B. flood, C. tornado, D. volcano, E. earthquake.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_77.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_77.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "fire",
+      "flood",
+      "tornado",
+      "volcano",
+      "earthquake"
+    ],
+    "options_str": "A. fire, B. flood, C. tornado, D. volcano, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_78.png",
+    "post_image_path": "test_images\\libya_flood_post_78.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "volcano",
+      "explosion",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. volcano, C. explosion, D. tsunami, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_78.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_78.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "volcano",
+      "explosion",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. volcano, C. explosion, D. tsunami, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_79.png",
+    "post_image_path": "test_images\\libya_flood_post_79.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "landslide",
+      "tsunami",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. flood, B. landslide, C. tsunami, D. hurricane, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_79.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_79.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "landslide",
+      "tsunami",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. flood, B. landslide, C. tsunami, D. hurricane, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_80.png",
+    "post_image_path": "test_images\\libya_flood_post_80.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "explosion",
+      "volcano",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. conflict, B. explosion, C. volcano, D. tsunami, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_80.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_80.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "explosion",
+      "volcano",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. conflict, B. explosion, C. volcano, D. tsunami, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_81.png",
+    "post_image_path": "test_images\\libya_flood_post_81.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "conflict",
+      "flood",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. explosion, B. conflict, C. flood, D. hurricane, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_81.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_81.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "conflict",
+      "flood",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. explosion, B. conflict, C. flood, D. hurricane, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_82.png",
+    "post_image_path": "test_images\\libya_flood_post_82.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "flood",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. flood, D. fire, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_82.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_82.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "flood",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. flood, D. fire, E. tornado.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_83.png",
+    "post_image_path": "test_images\\libya_flood_post_83.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "explosion",
+      "tornado",
+      "volcano",
+      "fire"
+    ],
+    "options_str": "A. flood, B. explosion, C. tornado, D. volcano, E. fire.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_83.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_83.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "explosion",
+      "tornado",
+      "volcano",
+      "fire"
+    ],
+    "options_str": "A. flood, B. explosion, C. tornado, D. volcano, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_84.png",
+    "post_image_path": "test_images\\libya_flood_post_84.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tsunami",
+      "flood",
+      "hurricane",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. flood, C. hurricane, D. earthquake, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_84.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_84.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tsunami",
+      "flood",
+      "hurricane",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. flood, C. hurricane, D. earthquake, E. explosion.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_85.png",
+    "post_image_path": "test_images\\libya_flood_post_85.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "flood",
+      "fire",
+      "landslide",
+      "conflict"
+    ],
+    "options_str": "A. hurricane, B. flood, C. fire, D. landslide, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_85.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_85.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "flood",
+      "fire",
+      "landslide",
+      "conflict"
+    ],
+    "options_str": "A. hurricane, B. flood, C. fire, D. landslide, E. conflict.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_86.png",
+    "post_image_path": "test_images\\libya_flood_post_86.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "tsunami",
+      "hurricane",
+      "tornado",
+      "flood"
+    ],
+    "options_str": "A. earthquake, B. tsunami, C. hurricane, D. tornado, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_86.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_86.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "tsunami",
+      "hurricane",
+      "tornado",
+      "flood"
+    ],
+    "options_str": "A. earthquake, B. tsunami, C. hurricane, D. tornado, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_87.png",
+    "post_image_path": "test_images\\libya_flood_post_87.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "fire",
+      "flood",
+      "tsunami",
+      "explosion"
+    ],
+    "options_str": "A. volcano, B. fire, C. flood, D. tsunami, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_87.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_87.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "fire",
+      "flood",
+      "tsunami",
+      "explosion"
+    ],
+    "options_str": "A. volcano, B. fire, C. flood, D. tsunami, E. explosion.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_89.png",
+    "post_image_path": "test_images\\libya_flood_post_89.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "explosion",
+      "flood",
+      "landslide",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. explosion, C. flood, D. landslide, E. earthquake.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_89.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_89.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "explosion",
+      "flood",
+      "landslide",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. explosion, C. flood, D. landslide, E. earthquake.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_90.png",
+    "post_image_path": "test_images\\libya_flood_post_90.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "flood",
+      "earthquake",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. flood, C. earthquake, D. fire, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_90.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_90.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tornado",
+      "flood",
+      "earthquake",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. flood, C. earthquake, D. fire, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_91.png",
+    "post_image_path": "test_images\\libya_flood_post_91.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "volcano",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. volcano, D. flood, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_91.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_91.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "volcano",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. volcano, D. flood, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_92.png",
+    "post_image_path": "test_images\\libya_flood_post_92.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "landslide",
+      "flood",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. earthquake, B. landslide, C. flood, D. volcano, E. tsunami.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_92.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_92.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "landslide",
+      "flood",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. earthquake, B. landslide, C. flood, D. volcano, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_96.png",
+    "post_image_path": "test_images\\libya_flood_post_96.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "tornado",
+      "flood",
+      "volcano",
+      "landslide"
+    ],
+    "options_str": "A. explosion, B. tornado, C. flood, D. volcano, E. landslide.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_96.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_96.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "tornado",
+      "flood",
+      "volcano",
+      "landslide"
+    ],
+    "options_str": "A. explosion, B. tornado, C. flood, D. volcano, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_97.png",
+    "post_image_path": "test_images\\libya_flood_post_97.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "volcano",
+      "tornado",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. volcano, C. tornado, D. flood, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_97.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_97.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "volcano",
+      "tornado",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. volcano, C. tornado, D. flood, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_101.png",
+    "post_image_path": "test_images\\libya_flood_post_101.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "explosion",
+      "fire",
+      "conflict",
+      "tsunami"
+    ],
+    "options_str": "A. flood, B. explosion, C. fire, D. conflict, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_101.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_101.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "explosion",
+      "fire",
+      "conflict",
+      "tsunami"
+    ],
+    "options_str": "A. flood, B. explosion, C. fire, D. conflict, E. tsunami.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_103.png",
+    "post_image_path": "test_images\\libya_flood_post_103.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "fire",
+      "landslide",
+      "earthquake",
+      "flood"
+    ],
+    "options_str": "A. explosion, B. fire, C. landslide, D. earthquake, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_103.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_103.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "fire",
+      "landslide",
+      "earthquake",
+      "flood"
+    ],
+    "options_str": "A. explosion, B. fire, C. landslide, D. earthquake, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_115.png",
+    "post_image_path": "test_images\\libya_flood_post_115.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "tsunami",
+      "explosion",
+      "tornado",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. tsunami, C. explosion, D. tornado, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\libya_flood_pre_115.png",
+    "post_image_path": "test_images\\libya_flood_sar_post_115.png",
+    "post_image_type": "SAR",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "tsunami",
+      "explosion",
+      "tornado",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. tsunami, C. explosion, D. tornado, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\lower_puna_volcano_00000121_pre_disaster.png",
+    "post_image_path": "test_images\\lower_puna_volcano_00000121_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "fire",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. fire, D. volcano, E. tsunami.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\lower_puna_volcano_00000149_pre_disaster.png",
+    "post_image_path": "test_images\\lower_puna_volcano_00000149_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "flood",
+      "volcano",
+      "conflict",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. flood, C. volcano, D. conflict, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\lower_puna_volcano_00000160_pre_disaster.png",
+    "post_image_path": "test_images\\lower_puna_volcano_00000160_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "volcano",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "earthquake",
+      "tsunami",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. flood, B. earthquake, C. tsunami, D. landslide, E. volcano.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\mexico_earthquake_00000169_pre_disaster.png",
+    "post_image_path": "test_images\\mexico_earthquake_00000169_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "volcano",
+      "earthquake",
+      "hurricane",
+      "landslide"
+    ],
+    "options_str": "A. tsunami, B. volcano, C. earthquake, D. hurricane, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000000_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000000_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "landslide",
+      "flood",
+      "hurricane",
+      "conflict",
+      "tornado"
+    ],
+    "options_str": "A. landslide, B. flood, C. hurricane, D. conflict, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000006_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000006_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "volcano",
+      "tsunami",
+      "earthquake",
+      "hurricane",
+      "flood"
+    ],
+    "options_str": "A. volcano, B. tsunami, C. earthquake, D. hurricane, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000124_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000124_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "landslide",
+      "flood",
+      "explosion",
+      "earthquake",
+      "tsunami"
+    ],
+    "options_str": "A. landslide, B. flood, C. explosion, D. earthquake, E. tsunami.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000133_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000133_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "hurricane",
+      "explosion",
+      "flood",
+      "tornado",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. explosion, C. flood, D. tornado, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000174_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000174_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "volcano",
+      "tsunami",
+      "hurricane",
+      "flood"
+    ],
+    "options_str": "A. tornado, B. volcano, C. tsunami, D. hurricane, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000286_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000286_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "tsunami",
+      "flood",
+      "fire"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. tsunami, D. flood, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000293_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000293_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "hurricane",
+      "flood",
+      "landslide",
+      "earthquake"
+    ],
+    "options_str": "A. conflict, B. hurricane, C. flood, D. landslide, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000335_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000335_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "landslide",
+      "flood",
+      "tsunami",
+      "volcano",
+      "tornado"
+    ],
+    "options_str": "A. landslide, B. flood, C. tsunami, D. volcano, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000363_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000363_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "fire",
+      "tornado",
+      "hurricane",
+      "flood"
+    ],
+    "options_str": "A. earthquake, B. fire, C. tornado, D. hurricane, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\midwest_flooding_00000369_pre_disaster.png",
+    "post_image_path": "test_images\\midwest_flooding_00000369_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tsunami",
+      "flood",
+      "fire",
+      "volcano",
+      "conflict"
+    ],
+    "options_str": "A. tsunami, B. flood, C. fire, D. volcano, E. conflict.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\moore_tornado_00000093_pre_disaster.png",
+    "post_image_path": "test_images\\moore_tornado_00000093_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "E",
+    "options_list": [
+      "earthquake",
+      "flood",
+      "volcano",
+      "tsunami",
+      "tornado"
+    ],
+    "options_str": "A. earthquake, B. flood, C. volcano, D. tsunami, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\moore_tornado_00000104_pre_disaster.png",
+    "post_image_path": "test_images\\moore_tornado_00000104_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "conflict",
+      "tornado",
+      "explosion",
+      "fire"
+    ],
+    "options_str": "A. flood, B. conflict, C. tornado, D. explosion, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000021_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000021_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "earthquake",
+      "flood",
+      "hurricane",
+      "landslide"
+    ],
+    "options_str": "A. explosion, B. earthquake, C. flood, D. hurricane, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000031_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000031_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "volcano",
+      "flood",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. volcano, C. flood, D. hurricane, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000043_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000043_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "explosion",
+      "conflict",
+      "hurricane",
+      "tsunami"
+    ],
+    "options_str": "A. flood, B. explosion, C. conflict, D. hurricane, E. tsunami.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000158_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000158_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "volcano",
+      "explosion",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. tsunami, B. volcano, C. explosion, D. flood, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000167_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000167_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "tornado",
+      "flood",
+      "fire"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. tornado, D. flood, E. fire.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000190_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000190_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "volcano",
+      "explosion",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. volcano, C. explosion, D. flood, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000292_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000292_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "conflict",
+      "landslide",
+      "flood",
+      "earthquake"
+    ],
+    "options_str": "A. tsunami, B. conflict, C. landslide, D. flood, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000302_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000302_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "flood",
+      "volcano",
+      "fire"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. flood, D. volcano, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000312_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000312_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "fire",
+      "hurricane",
+      "flood",
+      "tsunami",
+      "explosion"
+    ],
+    "options_str": "A. fire, B. hurricane, C. flood, D. tsunami, E. explosion.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000352_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000352_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "flood",
+      "tornado",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. flood, D. tornado, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000362_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000362_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "flood",
+      "landslide",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. flood, C. landslide, D. fire, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000403_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000403_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "earthquake",
+      "volcano",
+      "tsunami",
+      "fire"
+    ],
+    "options_str": "A. flood, B. earthquake, C. volcano, D. tsunami, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000445_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000445_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "tsunami",
+      "flood",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. tsunami, C. flood, D. explosion, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000467_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000467_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "explosion",
+      "hurricane",
+      "fire",
+      "flood"
+    ],
+    "options_str": "A. conflict, B. explosion, C. hurricane, D. fire, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000476_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000476_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "E",
+    "options_list": [
+      "fire",
+      "hurricane",
+      "landslide",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. fire, B. hurricane, C. landslide, D. tsunami, E. flood.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000517_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000517_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "fire",
+      "flood",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. fire, C. flood, D. earthquake, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\nepal_flooding_00000558_pre_disaster.png",
+    "post_image_path": "test_images\\nepal_flooding_00000558_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "flood",
+    "ground_truth_option": "A",
+    "options_list": [
+      "flood",
+      "hurricane",
+      "earthquake",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. flood, B. hurricane, C. earthquake, D. landslide, E. volcano.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\noto_earthquake_pre_124.png",
+    "post_image_path": "test_images\\noto_earthquake_post_124.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "earthquake",
+      "tornado",
+      "hurricane",
+      "conflict"
+    ],
+    "options_str": "A. volcano, B. earthquake, C. tornado, D. hurricane, E. conflict.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\noto_earthquake_pre_124.png",
+    "post_image_path": "test_images\\noto_earthquake_sar_post_124.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "earthquake",
+      "tornado",
+      "hurricane",
+      "conflict"
+    ],
+    "options_str": "A. volcano, B. earthquake, C. tornado, D. hurricane, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\noto_earthquake_pre_161.png",
+    "post_image_path": "test_images\\noto_earthquake_post_161.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "explosion",
+      "volcano",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. explosion, C. volcano, D. fire, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\noto_earthquake_pre_161.png",
+    "post_image_path": "test_images\\noto_earthquake_sar_post_161.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "explosion",
+      "volcano",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. explosion, C. volcano, D. fire, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\noto_earthquake_pre_162.png",
+    "post_image_path": "test_images\\noto_earthquake_post_162.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "conflict",
+      "hurricane",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. explosion, B. conflict, C. hurricane, D. fire, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\noto_earthquake_pre_162.png",
+    "post_image_path": "test_images\\noto_earthquake_sar_post_162.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "conflict",
+      "hurricane",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. explosion, B. conflict, C. hurricane, D. fire, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000026_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000026_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "hurricane",
+      "explosion",
+      "tsunami",
+      "volcano",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. explosion, C. tsunami, D. volcano, E. fire.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000029_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000029_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "flood",
+      "explosion",
+      "earthquake",
+      "tsunami"
+    ],
+    "options_str": "A. landslide, B. flood, C. explosion, D. earthquake, E. tsunami.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000035_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000035_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "B",
+    "options_list": [
+      "earthquake",
+      "tsunami",
+      "hurricane",
+      "conflict",
+      "explosion"
+    ],
+    "options_str": "A. earthquake, B. tsunami, C. hurricane, D. conflict, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000053_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000053_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tsunami",
+      "tornado",
+      "hurricane",
+      "conflict",
+      "flood"
+    ],
+    "options_str": "A. tsunami, B. tornado, C. hurricane, D. conflict, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000056_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000056_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "B",
+    "options_list": [
+      "conflict",
+      "tsunami",
+      "flood",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. tsunami, C. flood, D. earthquake, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000065_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000065_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "flood",
+      "landslide",
+      "tsunami",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. flood, C. landslide, D. tsunami, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000096_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000096_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "flood",
+      "tsunami",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. landslide, B. flood, C. tsunami, D. earthquake, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000104_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000104_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "D",
+    "options_list": [
+      "explosion",
+      "landslide",
+      "earthquake",
+      "tsunami",
+      "flood"
+    ],
+    "options_str": "A. explosion, B. landslide, C. earthquake, D. tsunami, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000110_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000110_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "E",
+    "options_list": [
+      "conflict",
+      "volcano",
+      "hurricane",
+      "landslide",
+      "tsunami"
+    ],
+    "options_str": "A. conflict, B. volcano, C. hurricane, D. landslide, E. tsunami.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000129_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000129_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "E",
+    "options_list": [
+      "volcano",
+      "earthquake",
+      "hurricane",
+      "fire",
+      "tsunami"
+    ],
+    "options_str": "A. volcano, B. earthquake, C. hurricane, D. fire, E. tsunami.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000130_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000130_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "fire",
+      "tsunami",
+      "volcano",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. fire, C. tsunami, D. volcano, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000141_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000141_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "B",
+    "options_list": [
+      "fire",
+      "tsunami",
+      "volcano",
+      "flood",
+      "conflict"
+    ],
+    "options_str": "A. fire, B. tsunami, C. volcano, D. flood, E. conflict.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000145_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000145_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "flood",
+      "landslide",
+      "tsunami",
+      "explosion"
+    ],
+    "options_str": "A. conflict, B. flood, C. landslide, D. tsunami, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000148_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000148_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "earthquake",
+      "explosion",
+      "tsunami",
+      "conflict",
+      "hurricane"
+    ],
+    "options_str": "A. earthquake, B. explosion, C. tsunami, D. conflict, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000165_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000165_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "tsunami",
+      "explosion",
+      "flood"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. tsunami, D. explosion, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000169_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000169_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tornado",
+      "volcano",
+      "tsunami",
+      "flood",
+      "conflict"
+    ],
+    "options_str": "A. tornado, B. volcano, C. tsunami, D. flood, E. conflict.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000170_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000170_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tsunami",
+      "fire",
+      "earthquake",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. fire, C. earthquake, D. explosion, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000185_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000185_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "B",
+    "options_list": [
+      "conflict",
+      "tsunami",
+      "volcano",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. conflict, B. tsunami, C. volcano, D. hurricane, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000191_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000191_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "tsunami",
+      "fire",
+      "flood"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. tsunami, D. fire, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000193_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000193_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "earthquake",
+      "volcano",
+      "flood"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. earthquake, D. volcano, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\palu_tsunami_00000195_pre_disaster.png",
+    "post_image_path": "test_images\\palu_tsunami_00000195_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tsunami",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "fire",
+      "flood",
+      "tsunami",
+      "volcano"
+    ],
+    "options_str": "A. earthquake, B. fire, C. flood, D. tsunami, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\pinery_bushfire_00000081_pre_disaster.png",
+    "post_image_path": "test_images\\pinery_bushfire_00000081_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "earthquake",
+      "tornado",
+      "volcano",
+      "hurricane"
+    ],
+    "options_str": "A. fire, B. earthquake, C. tornado, D. volcano, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\pinery_bushfire_00001155_pre_disaster.png",
+    "post_image_path": "test_images\\pinery_bushfire_00001155_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tornado",
+      "landslide",
+      "flood",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. tornado, B. landslide, C. flood, D. fire, E. earthquake.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\portugal_wildfire_00000218_pre_disaster.png",
+    "post_image_path": "test_images\\portugal_wildfire_00000218_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "landslide",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. landslide, D. earthquake, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\portugal_wildfire_00001518_pre_disaster.png",
+    "post_image_path": "test_images\\portugal_wildfire_00001518_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "tsunami",
+      "fire",
+      "landslide",
+      "flood"
+    ],
+    "options_str": "A. conflict, B. tsunami, C. fire, D. landslide, E. flood.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\portugal_wildfire_00001654_pre_disaster.png",
+    "post_image_path": "test_images\\portugal_wildfire_00001654_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "fire",
+      "landslide",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. flood, B. fire, C. landslide, D. volcano, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\portugal_wildfire_00001694_pre_disaster.png",
+    "post_image_path": "test_images\\portugal_wildfire_00001694_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "volcano",
+      "fire",
+      "hurricane",
+      "tsunami",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. fire, C. hurricane, D. tsunami, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000006_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000006_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "hurricane",
+      "conflict",
+      "volcano",
+      "tsunami",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. conflict, C. volcano, D. tsunami, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000012_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000012_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "tsunami",
+      "tornado",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. hurricane, B. tsunami, C. tornado, D. fire, E. earthquake.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000018_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000018_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "earthquake",
+      "volcano",
+      "hurricane",
+      "fire"
+    ],
+    "options_str": "A. flood, B. earthquake, C. volcano, D. hurricane, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000049_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000049_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "earthquake",
+      "hurricane",
+      "tsunami",
+      "fire"
+    ],
+    "options_str": "A. tornado, B. earthquake, C. hurricane, D. tsunami, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000055_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000055_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "tornado",
+      "tsunami",
+      "fire",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. tornado, C. tsunami, D. fire, E. flood.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000092_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000092_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "volcano",
+      "flood",
+      "tornado",
+      "hurricane"
+    ],
+    "options_str": "A. fire, B. volcano, C. flood, D. tornado, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000111_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000111_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "flood",
+      "tornado",
+      "explosion",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. flood, B. tornado, C. explosion, D. fire, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000117_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000117_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "explosion",
+      "landslide",
+      "flood",
+      "fire",
+      "conflict"
+    ],
+    "options_str": "A. explosion, B. landslide, C. flood, D. fire, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000161_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000161_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tornado",
+      "volcano",
+      "flood",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. tornado, B. volcano, C. flood, D. fire, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000186_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000186_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "flood",
+      "landslide",
+      "fire",
+      "conflict"
+    ],
+    "options_str": "A. earthquake, B. flood, C. landslide, D. fire, E. conflict.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000205_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000205_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "fire",
+      "flood",
+      "tornado",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. fire, C. flood, D. tornado, E. explosion.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000217_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000217_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "tornado",
+      "fire",
+      "landslide"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. tornado, D. fire, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000263_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000263_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "explosion",
+      "fire",
+      "earthquake",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. fire, C. earthquake, D. hurricane, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000269_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000269_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "explosion",
+      "earthquake",
+      "hurricane",
+      "landslide",
+      "fire"
+    ],
+    "options_str": "A. explosion, B. earthquake, C. hurricane, D. landslide, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000300_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000300_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "flood",
+      "fire",
+      "volcano",
+      "tsunami"
+    ],
+    "options_str": "A. landslide, B. flood, C. fire, D. volcano, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000306_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000306_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "hurricane",
+      "conflict",
+      "tornado",
+      "volcano"
+    ],
+    "options_str": "A. fire, B. hurricane, C. conflict, D. tornado, E. volcano.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\santa_rosa_wildfire_00000370_pre_disaster.png",
+    "post_image_path": "test_images\\santa_rosa_wildfire_00000370_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "earthquake",
+      "fire",
+      "conflict",
+      "explosion",
+      "flood"
+    ],
+    "options_str": "A. earthquake, B. fire, C. conflict, D. explosion, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\socal_fire_00000139_pre_disaster.png",
+    "post_image_path": "test_images\\socal_fire_00000139_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "explosion",
+      "flood",
+      "landslide",
+      "tsunami"
+    ],
+    "options_str": "A. fire, B. explosion, C. flood, D. landslide, E. tsunami.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\socal_fire_00000585_pre_disaster.png",
+    "post_image_path": "test_images\\socal_fire_00000585_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "earthquake",
+      "tornado",
+      "conflict",
+      "flood"
+    ],
+    "options_str": "A. fire, B. earthquake, C. tornado, D. conflict, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\socal_fire_00000713_pre_disaster.png",
+    "post_image_path": "test_images\\socal_fire_00000713_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "hurricane",
+      "flood",
+      "volcano",
+      "tornado",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. flood, C. volcano, D. tornado, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\socal_fire_00000942_pre_disaster.png",
+    "post_image_path": "test_images\\socal_fire_00000942_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "volcano",
+      "hurricane",
+      "earthquake",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. volcano, B. hurricane, C. earthquake, D. fire, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\socal_fire_00001086_pre_disaster.png",
+    "post_image_path": "test_images\\socal_fire_00001086_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "conflict",
+      "tsunami",
+      "fire",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. conflict, C. tsunami, D. fire, E. flood.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake1_pre_224.png",
+    "post_image_path": "test_images\\turkey_earthquake1_post_224.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "tornado",
+      "hurricane",
+      "explosion",
+      "conflict"
+    ],
+    "options_str": "A. earthquake, B. tornado, C. hurricane, D. explosion, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake1_pre_224.png",
+    "post_image_path": "test_images\\turkey_earthquake1_sar_post_224.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "tornado",
+      "hurricane",
+      "explosion",
+      "conflict"
+    ],
+    "options_str": "A. earthquake, B. tornado, C. hurricane, D. explosion, E. conflict.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake1_pre_242.png",
+    "post_image_path": "test_images\\turkey_earthquake1_post_242.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "fire",
+      "volcano",
+      "earthquake",
+      "hurricane",
+      "flood"
+    ],
+    "options_str": "A. fire, B. volcano, C. earthquake, D. hurricane, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake1_pre_242.png",
+    "post_image_path": "test_images\\turkey_earthquake1_sar_post_242.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "fire",
+      "volcano",
+      "earthquake",
+      "hurricane",
+      "flood"
+    ],
+    "options_str": "A. fire, B. volcano, C. earthquake, D. hurricane, E. flood.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake3_pre_265.png",
+    "post_image_path": "test_images\\turkey_earthquake3_post_265.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "explosion",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. explosion, D. landslide, E. volcano.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake3_pre_265.png",
+    "post_image_path": "test_images\\turkey_earthquake3_sar_post_265.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "explosion",
+      "landslide",
+      "volcano"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. explosion, D. landslide, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake3_pre_269.png",
+    "post_image_path": "test_images\\turkey_earthquake3_post_269.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "flood",
+      "conflict",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. earthquake, B. flood, C. conflict, D. fire, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake3_pre_269.png",
+    "post_image_path": "test_images\\turkey_earthquake3_sar_post_269.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "flood",
+      "conflict",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. earthquake, B. flood, C. conflict, D. fire, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_283.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_283.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "explosion",
+      "hurricane",
+      "flood",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. explosion, B. hurricane, C. flood, D. earthquake, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_283.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_283.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "explosion",
+      "hurricane",
+      "flood",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. explosion, B. hurricane, C. flood, D. earthquake, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_301.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_301.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "flood",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. flood, D. earthquake, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_301.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_301.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "flood",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. flood, D. earthquake, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_302.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_302.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "tornado",
+      "conflict",
+      "earthquake",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. tornado, C. conflict, D. earthquake, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_302.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_302.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "landslide",
+      "tornado",
+      "conflict",
+      "earthquake",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. tornado, C. conflict, D. earthquake, E. flood.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_304.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_304.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "volcano",
+      "earthquake",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. volcano, C. earthquake, D. explosion, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_304.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_304.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "volcano",
+      "earthquake",
+      "explosion",
+      "hurricane"
+    ],
+    "options_str": "A. landslide, B. volcano, C. earthquake, D. explosion, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_306.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_306.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "explosion",
+      "earthquake",
+      "landslide",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. earthquake, C. landslide, D. hurricane, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_306.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_306.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "explosion",
+      "earthquake",
+      "landslide",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. earthquake, C. landslide, D. hurricane, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_307.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_307.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "earthquake",
+      "conflict",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. earthquake, C. conflict, D. tsunami, E. landslide.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_307.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_307.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "earthquake",
+      "conflict",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. earthquake, C. conflict, D. tsunami, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_317.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_317.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "tornado",
+      "earthquake",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. tornado, C. earthquake, D. flood, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_317.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_317.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "tsunami",
+      "tornado",
+      "earthquake",
+      "flood",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. tornado, C. earthquake, D. flood, E. hurricane.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_318.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_318.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "volcano",
+      "earthquake",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. volcano, C. earthquake, D. tsunami, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_318.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_318.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "volcano",
+      "earthquake",
+      "tsunami",
+      "landslide"
+    ],
+    "options_str": "A. flood, B. volcano, C. earthquake, D. tsunami, E. landslide.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_321.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_321.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "tornado",
+      "explosion",
+      "tsunami",
+      "earthquake"
+    ],
+    "options_str": "A. flood, B. tornado, C. explosion, D. tsunami, E. earthquake.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_321.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_321.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "tornado",
+      "explosion",
+      "tsunami",
+      "earthquake"
+    ],
+    "options_str": "A. flood, B. tornado, C. explosion, D. tsunami, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_322.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_322.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "volcano",
+      "tsunami",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. volcano, C. tsunami, D. earthquake, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_322.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_322.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "volcano",
+      "tsunami",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. volcano, C. tsunami, D. earthquake, E. fire.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_323.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_323.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "conflict",
+      "earthquake",
+      "fire",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. earthquake, C. fire, D. landslide, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_323.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_323.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "conflict",
+      "earthquake",
+      "fire",
+      "landslide",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. earthquake, C. fire, D. landslide, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_326.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_326.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "tornado",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. tornado, D. earthquake, E. explosion.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_326.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_326.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "tornado",
+      "earthquake",
+      "explosion"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. tornado, D. earthquake, E. explosion.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_327.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_327.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "tsunami",
+      "earthquake",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. tsunami, C. earthquake, D. hurricane, E. tornado.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_327.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_327.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "tsunami",
+      "earthquake",
+      "hurricane",
+      "tornado"
+    ],
+    "options_str": "A. explosion, B. tsunami, C. earthquake, D. hurricane, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_330.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_330.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "fire",
+      "explosion",
+      "flood",
+      "earthquake"
+    ],
+    "options_str": "A. tornado, B. fire, C. explosion, D. flood, E. earthquake.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_330.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_330.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "fire",
+      "explosion",
+      "flood",
+      "earthquake"
+    ],
+    "options_str": "A. tornado, B. fire, C. explosion, D. flood, E. earthquake.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_332.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_332.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "flood",
+      "explosion",
+      "tsunami",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. flood, B. explosion, C. tsunami, D. earthquake, E. fire.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_332.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_332.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "flood",
+      "explosion",
+      "tsunami",
+      "earthquake",
+      "fire"
+    ],
+    "options_str": "A. flood, B. explosion, C. tsunami, D. earthquake, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_334.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_334.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "volcano",
+      "hurricane",
+      "conflict",
+      "fire"
+    ],
+    "options_str": "A. earthquake, B. volcano, C. hurricane, D. conflict, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_334.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_334.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "A",
+    "options_list": [
+      "earthquake",
+      "volcano",
+      "hurricane",
+      "conflict",
+      "fire"
+    ],
+    "options_str": "A. earthquake, B. volcano, C. hurricane, D. conflict, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_335.png",
+    "post_image_path": "test_images\\turkey_earthquake4_post_335.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "fire",
+      "tsunami",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. fire, C. tsunami, D. earthquake, E. hurricane.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake4_pre_335.png",
+    "post_image_path": "test_images\\turkey_earthquake4_sar_post_335.png",
+    "post_image_type": "SAR",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "fire",
+      "tsunami",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. conflict, B. fire, C. tsunami, D. earthquake, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_420.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_420.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "volcano",
+      "flood",
+      "earthquake",
+      "fire",
+      "conflict"
+    ],
+    "options_str": "A. volcano, B. flood, C. earthquake, D. fire, E. conflict.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_423.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_423.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "volcano",
+      "flood",
+      "conflict",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. volcano, B. flood, C. conflict, D. fire, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_424.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_424.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "conflict",
+      "tsunami",
+      "hurricane",
+      "earthquake",
+      "landslide"
+    ],
+    "options_str": "A. conflict, B. tsunami, C. hurricane, D. earthquake, E. landslide.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_425.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_425.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "landslide",
+      "conflict",
+      "fire"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. landslide, D. conflict, E. fire.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_429.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_429.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "landslide",
+      "hurricane",
+      "earthquake",
+      "explosion",
+      "flood"
+    ],
+    "options_str": "A. landslide, B. hurricane, C. earthquake, D. explosion, E. flood.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_438.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_438.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "B",
+    "options_list": [
+      "hurricane",
+      "earthquake",
+      "fire",
+      "explosion",
+      "tornado"
+    ],
+    "options_str": "A. hurricane, B. earthquake, C. fire, D. explosion, E. tornado.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_439.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_439.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "hurricane",
+      "flood",
+      "earthquake",
+      "tornado"
+    ],
+    "options_str": "A. tsunami, B. hurricane, C. flood, D. earthquake, E. tornado.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_441.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_441.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "hurricane",
+      "volcano",
+      "fire",
+      "earthquake",
+      "conflict"
+    ],
+    "options_str": "A. hurricane, B. volcano, C. fire, D. earthquake, E. conflict.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_442.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_442.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tsunami",
+      "landslide",
+      "flood",
+      "earthquake",
+      "volcano"
+    ],
+    "options_str": "A. tsunami, B. landslide, C. flood, D. earthquake, E. volcano.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_516.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_516.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "D",
+    "options_list": [
+      "explosion",
+      "tsunami",
+      "landslide",
+      "earthquake",
+      "hurricane"
+    ],
+    "options_str": "A. explosion, B. tsunami, C. landslide, D. earthquake, E. hurricane.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_549.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_549.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "landslide",
+      "earthquake",
+      "volcano",
+      "flood"
+    ],
+    "options_str": "A. conflict, B. landslide, C. earthquake, D. volcano, E. flood.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_550.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_550.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "hurricane",
+      "tornado",
+      "earthquake",
+      "fire",
+      "explosion"
+    ],
+    "options_str": "A. hurricane, B. tornado, C. earthquake, D. fire, E. explosion.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake6_pre_564.png",
+    "post_image_path": "test_images\\turkey_earthquake6_post_564.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "E",
+    "options_list": [
+      "tornado",
+      "explosion",
+      "flood",
+      "fire",
+      "earthquake"
+    ],
+    "options_str": "A. tornado, B. explosion, C. flood, D. fire, E. earthquake.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\turkey_earthquake7_pre_571.png",
+    "post_image_path": "test_images\\turkey_earthquake7_post_571.png",
+    "post_image_type": "Optical",
+    "ground_truth": "earthquake",
+    "ground_truth_option": "C",
+    "options_list": [
+      "explosion",
+      "fire",
+      "earthquake",
+      "flood",
+      "landslide"
+    ],
+    "options_str": "A. explosion, B. fire, C. earthquake, D. flood, E. landslide.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\tuscaloosa_tornado_00000042_pre_disaster.png",
+    "post_image_path": "test_images\\tuscaloosa_tornado_00000042_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "explosion",
+      "hurricane",
+      "earthquake",
+      "volcano"
+    ],
+    "options_str": "A. tornado, B. explosion, C. hurricane, D. earthquake, E. volcano.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\tuscaloosa_tornado_00000085_pre_disaster.png",
+    "post_image_path": "test_images\\tuscaloosa_tornado_00000085_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "hurricane",
+      "flood",
+      "earthquake",
+      "conflict"
+    ],
+    "options_str": "A. tornado, B. hurricane, C. flood, D. earthquake, E. conflict.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\tuscaloosa_tornado_00000210_pre_disaster.png",
+    "post_image_path": "test_images\\tuscaloosa_tornado_00000210_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "landslide",
+      "conflict",
+      "flood",
+      "volcano"
+    ],
+    "options_str": "A. tornado, B. landslide, C. conflict, D. flood, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\tuscaloosa_tornado_00000241_pre_disaster.png",
+    "post_image_path": "test_images\\tuscaloosa_tornado_00000241_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "A",
+    "options_list": [
+      "tornado",
+      "flood",
+      "fire",
+      "explosion",
+      "volcano"
+    ],
+    "options_str": "A. tornado, B. flood, C. fire, D. explosion, E. volcano.",
+    "prompts": "What disaster has happened in this  area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\tuscaloosa_tornado_00000272_pre_disaster.png",
+    "post_image_path": "test_images\\tuscaloosa_tornado_00000272_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "tornado",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "tsunami",
+      "volcano",
+      "flood",
+      "tornado"
+    ],
+    "options_str": "A. landslide, B. tsunami, C. volcano, D. flood, E. tornado.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000024_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000024_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "hurricane",
+      "earthquake",
+      "tornado",
+      "tsunami"
+    ],
+    "options_str": "A. fire, B. hurricane, C. earthquake, D. tornado, E. tsunami.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000146_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000146_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "earthquake",
+      "hurricane",
+      "flood",
+      "fire",
+      "tornado"
+    ],
+    "options_str": "A. earthquake, B. hurricane, C. flood, D. fire, E. tornado.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000262_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000262_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "tsunami",
+      "hurricane",
+      "volcano",
+      "explosion"
+    ],
+    "options_str": "A. fire, B. tsunami, C. hurricane, D. volcano, E. explosion.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000271_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000271_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "flood",
+      "fire",
+      "conflict",
+      "hurricane",
+      "tsunami"
+    ],
+    "options_str": "A. flood, B. fire, C. conflict, D. hurricane, E. tsunami.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000352_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000352_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "C",
+    "options_list": [
+      "conflict",
+      "flood",
+      "fire",
+      "tornado",
+      "landslide"
+    ],
+    "options_str": "A. conflict, B. flood, C. fire, D. tornado, E. landslide.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000409_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000409_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "B",
+    "options_list": [
+      "tsunami",
+      "fire",
+      "flood",
+      "volcano",
+      "hurricane"
+    ],
+    "options_str": "A. tsunami, B. fire, C. flood, D. volcano, E. hurricane.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000489_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000489_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "flood",
+      "tsunami",
+      "earthquake",
+      "conflict"
+    ],
+    "options_str": "A. fire, B. flood, C. tsunami, D. earthquake, E. conflict.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000541_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000541_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "C",
+    "options_list": [
+      "flood",
+      "conflict",
+      "fire",
+      "hurricane",
+      "earthquake"
+    ],
+    "options_str": "A. flood, B. conflict, C. fire, D. hurricane, E. earthquake.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000585_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000585_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "conflict",
+      "flood",
+      "earthquake",
+      "tsunami"
+    ],
+    "options_str": "A. fire, B. conflict, C. flood, D. earthquake, E. tsunami.",
+    "prompts": "Identify the disaster that has impacted this location.",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000622_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000622_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "tornado",
+      "hurricane",
+      "explosion",
+      "earthquake"
+    ],
+    "options_str": "A. fire, B. tornado, C. hurricane, D. explosion, E. earthquake.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000656_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000656_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "landslide",
+      "flood",
+      "tsunami",
+      "conflict",
+      "fire"
+    ],
+    "options_str": "A. landslide, B. flood, C. tsunami, D. conflict, E. fire.",
+    "prompts": "What type of disaster occurred in this region?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000780_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000780_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "D",
+    "options_list": [
+      "tornado",
+      "explosion",
+      "flood",
+      "fire",
+      "hurricane"
+    ],
+    "options_str": "A. tornado, B. explosion, C. flood, D. fire, E. hurricane.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000833_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000833_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "A",
+    "options_list": [
+      "fire",
+      "hurricane",
+      "landslide",
+      "tornado",
+      "tsunami"
+    ],
+    "options_str": "A. fire, B. hurricane, C. landslide, D. tornado, E. tsunami.",
+    "prompts": "What disaster event has taken place in this area?",
+    "task": "Disaster Type Recognition"
+  },
+  {
+    "pre_image_path": "test_images\\woolsey_fire_00000863_pre_disaster.png",
+    "post_image_path": "test_images\\woolsey_fire_00000863_post_disaster.png",
+    "post_image_type": "Optical",
+    "ground_truth": "fire",
+    "ground_truth_option": "E",
+    "options_list": [
+      "flood",
+      "earthquake",
+      "explosion",
+      "conflict",
+      "fire"
+    ],
+    "options_str": "A. flood, B. earthquake, C. explosion, D. conflict, E. fire.",
+    "prompts": "What kind of calamity has this area experienced?",
+    "task": "Disaster Type Recognition"
+  }
+]

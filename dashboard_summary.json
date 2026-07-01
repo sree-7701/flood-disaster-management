@@ -1,0 +1,13 @@
+{
+  "samples": 5,
+  "average_flood": 100.0,
+  "flood_areas": [
+    100.0,
+    100.0,
+    100.0,
+    100.0,
+    100.0
+  ],
+  "model": "U-Net (Sen1Floods11)",
+  "epochs": 50
+}

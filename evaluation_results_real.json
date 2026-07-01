@@ -1,0 +1,7 @@
+{
+  "iou": 0.43173993325703736,
+  "dice": 0.60309826278978,
+  "accuracy": 0.8797846476236979,
+  "model": "UNet",
+  "dataset": "Sen1Floods11_real"
+}
