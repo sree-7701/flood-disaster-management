@@ -1,0 +1,18 @@
+{
+  "test_accuracy": 0.85,
+  "test_f1_score": 0.7810810810810812,
+  "confusion_matrix": [
+    [
+      255,
+      0
+    ],
+    [
+      45,
+      0
+    ]
+  ],
+  "classes_present": [
+    "Damaged",
+    "Destroyed"
+  ]
+}

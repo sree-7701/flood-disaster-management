@@ -1,0 +1,84 @@
+{
+  "samples": 5,
+  "average_flood": 17.79754638671875,
+  "threshold": 0.6,
+  "reports": [
+    {
+      "flood_extent": 0.16632080078125,
+      "damage_class": "damaged",
+      "severity": "high",
+      "priority": "high",
+      "resources": {
+        "teams": 6,
+        "boats": 8,
+        "medical": 3,
+        "shelters": 8,
+        "food": 300,
+        "water": 4000
+      },
+      "timestamp": "2026-07-02 00:05:54.808140"
+    },
+    {
+      "flood_extent": 77.28424072265625,
+      "damage_class": "destroyed",
+      "severity": "medium",
+      "priority": "critical",
+      "resources": {
+        "teams": 10,
+        "boats": 15,
+        "medical": 6,
+        "shelters": 15,
+        "food": 500,
+        "water": 10000
+      },
+      "timestamp": "2026-07-02 00:05:54.808140"
+    },
+    {
+      "flood_extent": 0.1373291015625,
+      "damage_class": "damaged",
+      "severity": "high",
+      "priority": "high",
+      "resources": {
+        "teams": 6,
+        "boats": 8,
+        "medical": 3,
+        "shelters": 8,
+        "food": 300,
+        "water": 4000
+      },
+      "timestamp": "2026-07-02 00:05:54.808140"
+    },
+    {
+      "flood_extent": 1.34124755859375,
+      "damage_class": "intact",
+      "severity": "low",
+      "priority": "low",
+      "resources": {
+        "teams": 1,
+        "boats": 2,
+        "medical": 1,
+        "shelters": 2,
+        "food": 50,
+        "water": 1000
+      },
+      "timestamp": "2026-07-02 00:05:54.808140"
+    },
+    {
+      "flood_extent": 10.05859375,
+      "damage_class": "destroyed",
+      "severity": "medium",
+      "priority": "high",
+      "resources": {
+        "teams": 6,
+        "boats": 8,
+        "medical": 3,
+        "shelters": 8,
+        "food": 300,
+        "water": 4000
+      },
+      "timestamp": "2026-07-02 00:05:55.020646"
+    }
+  ],
+  "model": "U-Net (Sen1Floods11)",
+  "epochs": 50
+}

@@ -1,0 +1,81 @@
+{
+  "engine": "Resource Recommendation Engine (Stage 3)",
+  "total_scenarios": 5,
+  "recommendations": [
+    {
+      "scenario": "Scenario 1: Minor Flood",
+      "damage_class": "damaged",
+      "severity": "low",
+      "priority": "MEDIUM",
+      "resources": {
+        "rescue_teams": 2,
+        "boats": 3,
+        "medical_units": 1,
+        "shelters": 2,
+        "food_kits": 52,
+        "water_supply_liters": 1050
+      },
+      "rationale": "Damage: DAMAGED, Severity: LOW. Allocating 2 rescue teams, 3 boats, 1 medical units, 2 shelters, 52 food kits, and 1050 liters of water."
+    },
+    {
+      "scenario": "Scenario 2: Moderate Flood",
+      "damage_class": "damaged",
+      "severity": "medium",
+      "priority": "HIGH",
+      "resources": {
+        "rescue_teams": 4,
+        "boats": 6,
+        "medical_units": 2,
+        "shelters": 5,
+        "food_kits": 150,
+        "water_supply_liters": 3000
+      },
+      "rationale": "Damage: DAMAGED, Severity: MEDIUM. Allocating 4 rescue teams, 6 boats, 2 medical units, 5 shelters, 150 food kits, and 3000 liters of water."
+    },
+    {
+      "scenario": "Scenario 3: Severe Flood",
+      "damage_class": "destroyed",
+      "severity": "high",
+      "priority": "CRITICAL",
+      "resources": {
+        "rescue_teams": 24,
+        "boats": 31,
+        "medical_units": 12,
+        "shelters": 30,
+        "food_kits": 1750,
+        "water_supply_liters": 35000
+      },
+      "rationale": "Damage: DESTROYED, Severity: HIGH. Allocating 24 rescue teams, 31 boats, 12 medical units, 30 shelters, 1750 food kits, and 35000 liters of water."
+    },
+    {
+      "scenario": "Scenario 4: Urban Flood",
+      "damage_class": "damaged",
+      "severity": "high",
+      "priority": "CRITICAL",
+      "resources": {
+        "rescue_teams": 9,
+        "boats": 11,
+        "medical_units": 4,
+        "shelters": 9,
+        "food_kits": 400,
+        "water_supply_liters": 8000
+      },
+      "rationale": "Damage: DAMAGED, Severity: HIGH. Allocating 9 rescue teams, 11 boats, 4 medical units, 9 shelters, 400 food kits, and 8000 liters of water."
+    },
+    {
+      "scenario": "Scenario 5: Rural Flood",
+      "damage_class": "destroyed",
+      "severity": "medium",
+      "priority": "CRITICAL",
+      "resources": {
+        "rescue_teams": 9,
+        "boats": 16,
+        "medical_units": 4,
+        "shelters": 9,
+        "food_kits": 312,
+        "water_supply_liters": 6250
+      },
+      "rationale": "Damage: DESTROYED, Severity: MEDIUM. Allocating 9 rescue teams, 16 boats, 4 medical units, 9 shelters, 312 food kits, and 6250 liters of water."
+    }
+  ]
+}
